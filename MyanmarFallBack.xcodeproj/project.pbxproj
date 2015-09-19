@@ -148,6 +148,11 @@
 				CLASSPREFIX = MMF;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = comquas;
+				TargetAttributes = {
+					C592D78417C349D8004B6D5B = {
+						DevelopmentTeam = 4UP69BH7R6;
+					};
+				};
 			};
 			buildConfigurationList = C592D78017C349D7004B6D5B /* Build configuration list for PBXProject "MyanmarFallBack" */;
 			compatibilityVersion = "Xcode 3.2";

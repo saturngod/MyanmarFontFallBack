@@ -147,12 +147,12 @@ enum MMFontsName {
 - (IBAction)checkingOtherFont:(NSMatrix *)sender {
     
     if(_fontOption.selectedTag == 6) {
-        self.fontFamilyTextField.enabled = YES;
-        [self.fontFamilyTextField becomeFirstResponder];
+        _fontFamilyTextField.enabled = YES;
+        [_fontFamilyTextField becomeFirstResponder];
     }
     else {
-        self.fontFamilyTextField.enabled = NO;
-        [self.fontFamilyTextField setStringValue:@""];
+        _fontFamilyTextField.enabled = NO;
+        [_fontFamilyTextField setStringValue:@""];
     }
     
 }

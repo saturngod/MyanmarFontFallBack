@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="15B17c" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
@@ -64,17 +64,18 @@
         <window title="Choose The Font" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="209" height="250"/>
+            <rect key="contentRect" x="335" y="390" width="191" height="250"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1600" height="878"/>
             <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="209" height="250"/>
+                <rect key="frame" x="0.0" y="0.0" width="191" height="250"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autorecalculatesCellSize="YES" id="536">
-                        <rect key="frame" x="38" y="112" width="121" height="118"/>
+                        <rect key="frame" x="20" y="112" width="128" height="118"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <animations/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        <size key="cellSize" width="121" height="18"/>
+                        <size key="cellSize" width="128" height="18"/>
                         <size key="intercellSpacing" width="4" height="2"/>
                         <buttonCell key="prototype" type="radio" title="Radio" imagePosition="left" alignment="left" inset="2" id="537">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -113,8 +114,9 @@
                         </connections>
                     </matrix>
                     <button verticalHuggingPriority="750" id="551">
-                        <rect key="frame" x="32" y="46" width="163" height="32"/>
+                        <rect key="frame" x="14" y="46" width="163" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <animations/>
                         <buttonCell key="cell" type="push" title="Update Fall Back" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="552">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -124,8 +126,9 @@
                         </connections>
                     </button>
                     <textField verticalHuggingPriority="750" id="wOY-MR-pV4">
-                        <rect key="frame" x="38" y="82" width="151" height="22"/>
+                        <rect key="frame" x="20" y="82" width="151" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" bezelStyle="round" id="36i-Q3-Cei">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" red="0.20392156862745098" green="0.51372549019607838" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
@@ -133,8 +136,9 @@
                         </textFieldCell>
                     </textField>
                     <button verticalHuggingPriority="750" id="554">
-                        <rect key="frame" x="32" y="13" width="163" height="32"/>
+                        <rect key="frame" x="14" y="13" width="163" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <animations/>
                         <buttonCell key="cell" type="push" title="Restore Original" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="555">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -144,8 +148,9 @@
                         </connections>
                     </button>
                 </subviews>
+                <animations/>
             </view>
-            <point key="canvasLocation" x="301.5" y="406"/>
+            <point key="canvasLocation" x="292.5" y="406"/>
         </window>
         <customObject id="494" customClass="MMFAppDelegate">
             <connections>
