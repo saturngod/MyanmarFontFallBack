@@ -220,6 +220,10 @@ enum MMFontsName {
     [[BLAuthentication sharedInstance] executeCommand:COPY withArgs:arguments];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+    return YES;
+}
+
 -(void)clearFallBack:(id)sender
 {
     NSString *path = [[NSFileManager defaultManager] applicationSupportDirectory];
